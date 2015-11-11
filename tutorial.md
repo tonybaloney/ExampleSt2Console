@@ -5,6 +5,13 @@ Creating an Operations Dashboard for StackStorm actions
 This tutorial will show you how to leverage the power of the StackStorm API to expose your fantastic new workflows
 built using the flow tool [following one of the blogs](https://stackstorm.com/2015/10/02/tutorial-of-the-week-cassandra-auto-remediation/)
 
+In our fictional scenario, we have built 2 complex workflows.
+
+1. Engage Tractor Beam, this workflow deploys some virtual machines to cloud, uses Hubot to notify the staff and then Puppet to drive the tractor beam.
+2. Open/Close loading bay doors, this workflow takes the desired state of the doors to drive another workflow.
+
+We want to provide our technical operations team with a really simple UI where they can just click these buttons and we hide the magic behind the scenes.
+
 Starting off
 ---
 First off, this is a tutorial for ASP.NET 4.5, MVC 5 and WebAPI 2.0, the latest Microsoft Web Development toolkit.
