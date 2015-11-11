@@ -1,2 +1,6 @@
-# ExampleSt2Console
-Example console for a Stackstorm pack
+# Example StackStorm "Ops" Console for the Rebel Alliance
+
+An example of building an Operations Dashboard to expose complex Mistal workflows built in StackStorm inside a WebUI
+
+
+
