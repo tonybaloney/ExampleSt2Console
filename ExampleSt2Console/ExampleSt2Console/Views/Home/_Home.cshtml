@@ -1,0 +1,26 @@
+﻿<!-- ko with: home -->
+<div class="jumbotron">
+    <h1>Rebel Alliance Operations Dashboard</h1>
+    <p class="lead">This is a dashboard for the technical operations team in the rebel alliance.</p>
+    <p><a href="http://starwars.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <h2>Ship Engagement</h2>
+        <p>Actions related to foreign ship engagement.</p>
+        <p data-bind="text: myHometown"></p>
+       
+        <p><a data-bind="click: engageTractorBeam" class="btn btn-default" href="#">Engage Tractor Beam &raquo;</a></p>
+    </div>
+
+    <div class="col-md-6">
+        <h2>Loading Bay Doors</h2>
+        <p>
+            Operations related to the loading bay doors.
+        </p>
+	    <p><a data-bind="click: openLoadingDoors" class="btn btn-success" href="#">Open &raquo;</a></p>
+		<p><a data-bind="click: closeLoadingDoors" class="btn btn-warning" href="#">Close &raquo;</a></p>
+    </div>
+</div>
+
+<!-- /ko -->
